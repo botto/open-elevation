@@ -6,7 +6,7 @@ RUN pip install -r requirements.txt
 
 RUN apt-get update
 
-RUN apt-get install -y libspatialindex-dev unar bc
+RUN apt-get install -y libspatialindex-dev unar bc aria2
 
 RUN mkdir /code
 
